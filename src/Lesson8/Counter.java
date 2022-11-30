@@ -1,4 +1,6 @@
- public class Counter {
+package Lesson8;
+
+public class Counter {
     public String name;
     public int counter;
 
