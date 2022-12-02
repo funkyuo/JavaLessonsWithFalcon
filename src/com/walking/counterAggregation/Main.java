@@ -3,7 +3,7 @@ package com.walking.counterAggregation;
 import java.util.Scanner;
 
 public class Main {
-    private static final CounterService SERVICE = new CounterService();
+    private static final  CounterService SERVICE = new CounterService();
 
     public static void main(String[] args) {
         createCounter("Газ");
@@ -12,8 +12,9 @@ public class Main {
         createCounter("Горячая вода", 15, "литр(а/ов)");
         createCounter("Горячая вода", 15, "литр(а/ов)");
 
-        System.out.println(SERVICE.getCounterById(1).getName());
-        System.out.println(SERVICE.getCounterByName("Газ").getValue());
+
+
+        //System.out.println(SERVICE.getCounterByName("Газ").getValue());
         displayCounters();
 
     }
