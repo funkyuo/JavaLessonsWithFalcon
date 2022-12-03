@@ -11,6 +11,7 @@ public class Main {
         createCounter("Горячая вода", 15, "литр(а/ов)");
         createCounter("Горячая вода", 15, "литр(а/ов)");
         createCounter("Горячая вода", 15, "литр(а/ов)");
+        createCounter(new Counter("Электричество",200,"kW"));
 
 
 
@@ -20,6 +21,11 @@ public class Main {
     }
     private static void displayCounters() {
         SERVICE.Stat();
+    }
+
+    private static void  createCounter(Counter counter){
+        SERVICE.addCounter(counter);
+
     }
     private static void createCounter(String name) {
         SERVICE.addCounter(new Counter(name));
