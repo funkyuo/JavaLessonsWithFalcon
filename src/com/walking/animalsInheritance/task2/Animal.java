@@ -1,7 +1,7 @@
 package com.walking.animalsInheritance.task2;
 
 public class Animal {
-    String says;
+    private String says;
 
     public void hello() {
         System.out.println(says);

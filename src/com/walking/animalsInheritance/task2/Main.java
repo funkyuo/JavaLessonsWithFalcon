@@ -8,10 +8,10 @@ public class Main {
         Animal[] animalsArr = {cat, dog, cow};
         animalsSays(animalsArr);
     }
-
-    public static void animalsSays(Animal[] animals) {
+    private static void animalsSays(Animal[] animals) {
         for (Animal animal : animals) {
             animal.hello();
+
         }
     }
 }
