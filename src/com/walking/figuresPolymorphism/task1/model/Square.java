@@ -1,4 +1,4 @@
-package com.walking.figuresPolymorphism.model;
+package com.walking.figuresPolymorphism.task1.model;
 
 import PreviousLessons.Decompose_Rectangle;
 

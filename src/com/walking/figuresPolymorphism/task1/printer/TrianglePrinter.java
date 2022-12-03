@@ -1,4 +1,4 @@
-package com.walking.figuresPolymorphism.printer;
+package com.walking.figuresPolymorphism.task1.printer;
 
 
 public class TrianglePrinter {

@@ -1,5 +1,5 @@
-package com.walking.figuresPolymorphism.model;
-import com.walking.figuresPolymorphism.printer.TrianglePrinter;
+package com.walking.figuresPolymorphism.task1.model;
+import com.walking.figuresPolymorphism.task1.printer.TrianglePrinter;
 public class Triangle extends EquilateralPolygon {
     public Triangle(int side){
         draw(side);

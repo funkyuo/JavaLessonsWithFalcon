@@ -1,10 +1,10 @@
-package com.walking.figuresPolymorphism;
+package com.walking.figuresPolymorphism.task1;
 
 
 
 
-import com.walking.figuresPolymorphism.model.Triangle;
-import com.walking.figuresPolymorphism.model.Square;
+import com.walking.figuresPolymorphism.task1.model.Triangle;
+import com.walking.figuresPolymorphism.task1.model.Square;
 import java.util.Scanner;
 
 public class Main {

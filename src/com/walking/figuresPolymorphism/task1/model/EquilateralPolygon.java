@@ -1,4 +1,4 @@
-package com.walking.figuresPolymorphism.model;
+package com.walking.figuresPolymorphism.task1.model;
 
 public class EquilateralPolygon {
    /*public EquilateralPolygon(){
